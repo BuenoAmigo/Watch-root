@@ -1,0 +1,23 @@
+.about-us {
+  padding: 40px 20px 80px;
+}
+
+.about-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #1e2827;
+}
+
+.about-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.29x;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
+
+.about-gif-item {
+}
