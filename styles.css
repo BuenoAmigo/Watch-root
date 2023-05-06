@@ -1,0 +1,85 @@
+:root {
+  --white-primary-color: #ffffff;
+  --black-title-bg-color: #1e2827;
+  --black-primary-color: #141414;
+  --black-secondary-color: #14141480;
+  --grey-text-color: #ffffff80;
+  --grey-footer-text: #c6cdd1;
+  --grey-additional-text: #14141466;
+  /* for modal privacy and New Watches sections */
+  --grey-background-color: #fbfbfb;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  /* width: 100%; */
+}
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.container {
+  width: 100%;
+  /* padding-left: ;
+  padding-right: ;
+  margin-left: auto;
+  margin-right: auto; */
+  /* outline: 1px solid red; */
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  text-decoration: none;
+}
