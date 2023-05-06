@@ -8,6 +8,7 @@
   --grey-additional-text: #14141466;
   /* for modal privacy and New Watches sections */
   --grey-background-color: #fbfbfb;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 p,
