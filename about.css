@@ -1,5 +1,6 @@
 .about-us {
-  padding: 40px 20px 80px;
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
 
 .about-title {
@@ -8,16 +9,115 @@
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  color: #1e2827;
+  color: var(#1e2827);
+  margin-bottom: 40px;
 }
 
+.about-list {
+  margin-bottom: 40px;
+}
+
+.about-item:not(:last-child) {
+  margin-bottom: 20px;
+}
 .about-text {
   font-weight: 300;
   font-size: 14px;
-  line-height: 1.29x;
+  line-height: 1.29;
   letter-spacing: -0.02em;
-  color: #141414;
+  color: var(--black-primary-color);
+}
+.about-text-one {
+  padding: 0;
 }
 
-.about-gif-item {
+.about-text-two {
+  padding: 0;
+}
+
+.about-gif-thumb {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-gif-icon {
+  width: 100%;
+  /* height: auto; */
+}
+
+/* SALE */
+.sale {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+.sale-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--black-primary-color);
+}
+
+.sale-icon-thumb {
+  width: 100%;
+}
+.sale-icon-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 20px;
+}
+.sale-icon-item {
+  display: inline-block;
+}
+.sale-subtitle {
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--black-primary-color);
+  margin-bottom: 8px;
+}
+
+.sale-product-tag {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--black-secondary-color);
+  margin-bottom: 16px;
+}
+
+.sale-price-list {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 48px;
+}
+
+.sale-price-text {
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  color: var(--black-primary-color);
+}
+
+.sale-oldprice-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: var(--black-secondary-color);
+}
+.sale-description-title {
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--black-primary-color);
+  margin-bottom: 18px;
+}
+.sale-description-text {
+  color: var(--black-secondary-color);
+  margin-bottom: 48px;
+}
+.sale-details-list {
+}
+.sale-details-item {
+  color: var(--black-secondary-color);
 }
